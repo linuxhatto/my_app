@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title><%= @title %></title>
+		<%= csrf_meta_tag %>
+		<%= stylesheet_link_tag '/screen', :media => 'screen' %>
+		<%= stylesheet_link_tag '/print', :media => 'print' %>
+	</head>
+	<body>
+		<h1>DEV Portal</h1>
+		<p>
+			Hello. This is my home page. 
+		</p>
+		<%= yield %>
+		<%= link_to "Sign up now!", '#', :class => "signup_button round" %>	</body>
