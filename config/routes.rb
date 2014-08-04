@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
+  resources :users
 
+  match '/signup', :to => 'users#index', via: 'get'
   match '/about', :to => 'pages#about', via: 'get'
   match '/', :to => 'pages#home', via: 'get'
   match '/contact', :to => 'pages#contact', via: 'get'
