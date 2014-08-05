@@ -3,9 +3,11 @@
 }
 body {
 	background: #BBBBBB;
+
 }
 header {
 	padding-top: 20px;
+    opacity: 0.76;
 }
 header img {
 	padding: 1em;
@@ -17,6 +19,7 @@ section {
 	font-size: 120%;
 	padding: 20px;
 	background: #fff;
+    opacity: 0.76;
 }
 section h1 {
 	font-size: 200%;
@@ -42,6 +45,7 @@ nav {
 	background-color: white;
 	padding: 0 0.7em;
 	white-space: nowrap;
+    opacity: 0.76;
 }
 nav ul {
 	margin: 0;
@@ -90,6 +94,7 @@ footer {
 	width: 710px;
 	margin-left: auto;
 	margin-right: auto;
+    opacity: 0.76;
 }
 footer nav {
 	float: none;
