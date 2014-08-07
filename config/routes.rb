@@ -2,6 +2,8 @@ Rails.application.routes.draw do
 
 
 
+  resources :posts
+
   resources :users
 
   match '/about', :to => 'pages#about', via: 'get'
@@ -14,6 +16,10 @@ Rails.application.routes.draw do
 
   match '/signup', :to => 'users#index', via: 'get'
 
+
+ # Page Posts
+
+  match '/posts', :to => 'posts#index', via: 'get'
 
 # The priority is based upon order of creation: first created -> highest priority.
 # See how all your routes lay out with "rake routes".
